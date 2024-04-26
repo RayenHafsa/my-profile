@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire d'achat</title>
+	<link rel="stylesheet" href="r.css">
+</head>
+<body>
+	<form>
+		<h2>Votre identité</h2>
+		<label for="nom">Nom Prénom et nom</label>
+		<input type="text" id="nom" name="nom"><br><br>
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email"><br><br>
+		<label for="telephone">Téléphone</label>
+		<input type="tel" id="telephone" name="telephone"><br><br>
+		
+		<h2>Adresse de livraison</h2>
+		<label for="adresse">Adresse</label>
+		<input type="text" id="adresse" name="adresse"><br><br>
+		<label for="code_postal">Code postal</label>
+		<input type="text" id="code_postal" name="code_postal"><br><br>
+		<label for="pays">Pays</label>
+		<input type="text" id="pays" name="pays"><br><br>
+		
+		<h2>Informations CB</h2>
+		<label for="type_cb">Type de carte bancaire</label>
+		<select id="type_cb" name="type_cb">
+			<option value="VISA">VISA</option>
+			<option value="AmEx">AmEx</option>
+			<option value="Mastercard">Mastercard</option>
+		</select><br><br>
+        <img src="r.jpg" alt="This is an image" width="300" height="200">
+		<label for="numero_cb">N° de carte</label>
+		<input type="text" id="numero_cb" name="numero_cb"><br><br>
+		<label for="code_securite">Code sécurité</label>
+		<input type="text" id="code_securite" name="code_securite"><br><br>
+		<label for="nom_porteur">Nom du porteur</label>
+		<input type="text" id="nom_porteur" name="nom_porteur"><br><br>
+		
+		<input type="submit" value="J'achète!">
+	</form>
+</body>
+</html>
